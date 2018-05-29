@@ -1,0 +1,561 @@
+2017-10-12 12:52:13.953 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:52:13.960 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:52:14.793 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:52:14.798 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:52:14.800 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:52:14.806 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:52:14.807 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 1 delay between tries: 0 milisecond(s) for :408
+ | 2017-10-12 12:52:14.808 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 408,request_timeout
+ | 2017-10-12 12:52:14.811 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:52:14.829 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:52:14.836 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:52:14.838 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:52:14.972 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.054 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductEnrichmentMessage.isValid(ProductEnrichmentMessage.java:100)
+ | Valid tpnb, description, barcode are missing in Product Service response
+ | 2017-10-12 12:52:15.057 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.059 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.069 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.070 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.073 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.081 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.085 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.089 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductEnrichmentMessage.isValid(ProductEnrichmentMessage.java:100)
+ | Valid tpnb, description, barcode are missing in Product Service response
+ | 2017-10-12 12:52:15.092 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.098 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.100 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.103 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.109 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.112 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductEnrichmentMessage.isValid(ProductEnrichmentMessage.java:71)
+ | Some TPNB is not present in product service response
+ | 2017-10-12 12:52:15.114 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.116 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:15.119 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductEnrichmentMessage.isValid(ProductEnrichmentMessage.java:100)
+ | Valid tpnb, description, barcode are missing in Product Service response
+ | 2017-10-12 12:52:15.138 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 2 times.
+ | 2017-10-12 12:52:15.139 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 1 delay between tries: 0 milisecond(s) for :408
+ | 2017-10-12 12:52:15.139 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:52:15.140 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 2 delay between tries: 0 milisecond(s) for :408
+ | 2017-10-12 12:52:15.140 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:52:15.141 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 3 delay between tries: 0 milisecond(s) for :408
+ | 2017-10-12 12:52:15.142 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:52:15.142 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 408,
+ | 2017-10-12 12:52:15.144 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:52:15.150 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:52:15.152 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductLocationEnrichmentMessage.isValid(ProductLocationEnrichmentMessage.java:48)
+ | tpnb is missing in Product Location Service response
+ | 2017-10-12 12:52:15.154 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:52:15.156 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:52:15.158 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:52:15.160 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:52:15.160 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:52:15.161 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:52:15.163 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:52:15.165 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductLocationEnrichmentMessage.isValid(ProductLocationEnrichmentMessage.java:48)
+ | tpnb is missing in Product Location Service response
+ | 2017-10-12 12:52:24.173 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.models.OrderReceivedEvent.isValidOrderLineItem(OrderReceivedEvent.java:151)
+ | Invalid data received for order id:65. Field 'OrderLine' is mandetory.
+ | 2017-10-12 12:52:24.213 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 3 times.
+ | 2017-10-12 12:52:24.233 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:24.239 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:52:24.314 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:24.315 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:52:24.370 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.models.OrderReceivedEvent.isValidOrderLineItem(OrderReceivedEvent.java:167)
+ | Invalid data received for order id:65. Field 'tpnb' is mandetory.
+ | 2017-10-12 12:52:24.379 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.models.OrderReceivedEvent.isValidOrderLineItem(OrderReceivedEvent.java:158)
+ | Invalid data received for order id:65. Field 'lineItemId' is mandetory.
+ | 2017-10-12 12:52:24.386 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.models.OrderReceivedEvent.isValid(OrderReceivedEvent.java:136)
+ | Invalid data received for order id:65. Field 'TenantId' is mandetory and must be with in limit of 6 digit(max) alphanumeric characters.
+ | 2017-10-12 12:52:24.403 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:24.405 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:52:24.417 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:24.417 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:52:24.490 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:24.490 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:24.496 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductLocationEnrichmentMessage.isValid(ProductLocationEnrichmentMessage.java:48)
+ | tpnb is missing in Product Location Service response
+ | 2017-10-12 12:52:24.507 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:24.507 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:24.517 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:24.517 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:24.519 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 1 delay between tries: 0 milisecond(s) for :504
+ | 2017-10-12 12:52:24.520 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:52:24.520 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 504,[{"productId":"080487511","aisleCode":"46","orientationCode":"L","modSequence":"13","shelfCode":"B","productPosition":1,"facing":1},{"productId":"62321419","aisleCode":"47","orientationCode":"R","modSequence":"12","shelfCode":"A","productPosition":1,"facing":1}]
+ | 2017-10-12 12:52:24.531 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:52:24.532 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 1 delay between tries: 1000 milisecond(s) for :408
+ | 2017-10-12 12:52:25.537 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 2 delay between tries: 1000 milisecond(s) for :408
+ | 2017-10-12 12:52:26.538 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 408,
+ | 2017-10-12 12:52:26.574 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:52:26.577 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:26.578 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:26.578 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:52:26.590 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:26.599 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:26.599 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:26.609 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:26.610 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:26.619 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:52:26.620 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 1 delay between tries: 1000 milisecond(s) for :502
+ | 2017-10-12 12:52:27.620 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 2 delay between tries: 1000 milisecond(s) for :502
+ | 2017-10-12 12:52:28.620 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 502,bad
+ | 2017-10-12 12:52:28.637 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:52:28.638 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 1 delay between tries: 1000 milisecond(s) for :503
+ | 2017-10-12 12:52:29.639 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 2 delay between tries: 1000 milisecond(s) for :503
+ | 2017-10-12 12:52:30.641 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 503,bad
+ | 2017-10-12 12:52:30.655 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:52:30.656 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 1 delay between tries: 1000 milisecond(s) for :504
+ | 2017-10-12 12:52:31.658 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 2 delay between tries: 1000 milisecond(s) for :504
+ | 2017-10-12 12:52:32.661 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 504,bad
+ | 2017-10-12 12:52:32.678 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:52:32.683 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:32.686 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:32.687 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:52:32.688 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:32.709 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:32.710 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:32.716 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:32.716 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:32.724 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:32.725 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:32.733 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:32.734 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:32.743 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:32.743 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:32.744 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 1 delay between tries: 0 milisecond(s) for :503
+ | 2017-10-12 12:52:32.744 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:52:32.745 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 503,[{"productId":"080487511","aisleCode":"46","orientationCode":"L","modSequence":"13","shelfCode":"B","productPosition":1,"facing":1},{"productId":"62321419","aisleCode":"47","orientationCode":"R","modSequence":"12","shelfCode":"A","productPosition":1,"facing":1}]
+ | 2017-10-12 12:52:32.753 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:32.754 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:32.760 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:32.760 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:32.760 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 1 delay between tries: 0 milisecond(s) for :408
+ | 2017-10-12 12:52:32.760 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:52:32.761 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 408,[{"productId":"080487511","aisleCode":"46","orientationCode":"L","modSequence":"13","shelfCode":"B","productPosition":1,"facing":1},{"productId":"62321419","aisleCode":"47","orientationCode":"R","modSequence":"12","shelfCode":"A","productPosition":1,"facing":1}]
+ | 2017-10-12 12:52:32.771 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:32.775 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:52:32.775 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 1 delay between tries: 0 milisecond(s) for :502
+ | 2017-10-12 12:52:32.776 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:52:32.776 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 502,[{"productId":"080487511","aisleCode":"46","orientationCode":"L","modSequence":"13","shelfCode":"B","productPosition":1,"facing":1},{"productId":"62321419","aisleCode":"47","orientationCode":"R","modSequence":"12","shelfCode":"A","productPosition":1,"facing":1}]
+ | 2017-10-12 12:52:59.233 |  | product-projection-service | BLRABISW162551 | 182932 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:59.304 |  | product-projection-service | BLRABISW162551 | 182932 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:59.318 |  | product-projection-service | BLRABISW162551 | 182932 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:59.327 |  | product-projection-service | BLRABISW162551 | 182932 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:59.338 |  | product-projection-service | BLRABISW162551 | 182932 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:59.360 |  | product-projection-service | BLRABISW162551 | 182932 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:59.368 |  | product-projection-service | BLRABISW162551 | 182932 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:59.379 |  | product-projection-service | BLRABISW162551 | 182932 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:59.387 |  | product-projection-service | BLRABISW162551 | 182932 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:59.394 |  | product-projection-service | BLRABISW162551 | 182932 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:59.403 |  | product-projection-service | BLRABISW162551 | 182932 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:52:59.428 |  | product-projection-service | BLRABISW162551 | 182932 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:57.738 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:53:57.743 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:53:58.169 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:53:58.179 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:53:58.182 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:53:58.188 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:53:58.189 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 1 delay between tries: 0 milisecond(s) for :408
+ | 2017-10-12 12:53:58.190 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 408,request_timeout
+ | 2017-10-12 12:53:58.194 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:53:58.204 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:53:58.218 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:53:58.221 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 0 times.
+ | 2017-10-12 12:53:58.267 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.294 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductEnrichmentMessage.isValid(ProductEnrichmentMessage.java:100)
+ | Valid tpnb, description, barcode are missing in Product Service response
+ | 2017-10-12 12:53:58.297 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.298 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.315 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.315 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.317 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.323 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.326 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.330 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductEnrichmentMessage.isValid(ProductEnrichmentMessage.java:100)
+ | Valid tpnb, description, barcode are missing in Product Service response
+ | 2017-10-12 12:53:58.496 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.516 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.522 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.525 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.552 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.569 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductEnrichmentMessage.isValid(ProductEnrichmentMessage.java:71)
+ | Some TPNB is not present in product service response
+ | 2017-10-12 12:53:58.582 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.586 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:53:58.599 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductEnrichmentMessage.isValid(ProductEnrichmentMessage.java:100)
+ | Valid tpnb, description, barcode are missing in Product Service response
+ | 2017-10-12 12:53:58.626 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 2 times.
+ | 2017-10-12 12:53:58.627 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 1 delay between tries: 0 milisecond(s) for :408
+ | 2017-10-12 12:53:58.628 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:53:58.629 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 2 delay between tries: 0 milisecond(s) for :408
+ | 2017-10-12 12:53:58.629 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:53:58.630 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 3 delay between tries: 0 milisecond(s) for :408
+ | 2017-10-12 12:53:58.631 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:53:58.631 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 408,
+ | 2017-10-12 12:53:58.633 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:53:58.640 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:53:58.642 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductLocationEnrichmentMessage.isValid(ProductLocationEnrichmentMessage.java:48)
+ | tpnb is missing in Product Location Service response
+ | 2017-10-12 12:53:58.644 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:53:58.646 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:53:58.648 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:53:58.649 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:53:58.650 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:53:58.650 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:53:58.652 |  | product-projection-service | BLRABISW162551 |   | UK-2212 |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:53:58.654 |  | product-projection-service | BLRABISW162551 |   | UK-2212 | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductLocationEnrichmentMessage.isValid(ProductLocationEnrichmentMessage.java:48)
+ | tpnb is missing in Product Location Service response
+ | 2017-10-12 12:54:06.137 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.models.OrderReceivedEvent.isValidOrderLineItem(OrderReceivedEvent.java:151)
+ | Invalid data received for order id:65. Field 'OrderLine' is mandetory.
+ | 2017-10-12 12:54:06.208 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 3 times.
+ | 2017-10-12 12:54:06.225 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:54:06.233 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:06.318 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:06.320 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:54:06.338 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.models.OrderReceivedEvent.isValidOrderLineItem(OrderReceivedEvent.java:167)
+ | Invalid data received for order id:65. Field 'tpnb' is mandetory.
+ | 2017-10-12 12:54:06.363 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.models.OrderReceivedEvent.isValidOrderLineItem(OrderReceivedEvent.java:158)
+ | Invalid data received for order id:65. Field 'lineItemId' is mandetory.
+ | 2017-10-12 12:54:06.383 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.models.OrderReceivedEvent.isValid(OrderReceivedEvent.java:136)
+ | Invalid data received for order id:65. Field 'TenantId' is mandetory and must be with in limit of 6 digit(max) alphanumeric characters.
+ | 2017-10-12 12:54:06.414 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:54:06.414 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:06.437 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:06.439 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 1 times.
+ | 2017-10-12 12:54:06.613 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:06.614 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:06.620 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.messages.ProductLocationEnrichmentMessage.isValid(ProductLocationEnrichmentMessage.java:48)
+ | tpnb is missing in Product Location Service response
+ | 2017-10-12 12:54:06.631 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:06.631 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:06.643 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:06.643 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:06.644 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 1 delay between tries: 0 milisecond(s) for :504
+ | 2017-10-12 12:54:06.644 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:54:06.645 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 504,[{"productId":"080487511","aisleCode":"46","orientationCode":"L","modSequence":"13","shelfCode":"B","productPosition":1,"facing":1},{"productId":"62321419","aisleCode":"47","orientationCode":"R","modSequence":"12","shelfCode":"A","productPosition":1,"facing":1}]
+ | 2017-10-12 12:54:06.655 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:54:06.656 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 1 delay between tries: 1000 milisecond(s) for :408
+ | 2017-10-12 12:54:07.669 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 2 delay between tries: 1000 milisecond(s) for :408
+ | 2017-10-12 12:54:08.670 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 408,
+ | 2017-10-12 12:54:08.709 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:54:08.716 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:08.720 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:08.721 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:54:08.723 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:08.739 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:08.740 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:08.757 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:08.762 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:08.772 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:54:08.772 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 1 delay between tries: 1000 milisecond(s) for :502
+ | 2017-10-12 12:54:09.773 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 2 delay between tries: 1000 milisecond(s) for :502
+ | 2017-10-12 12:54:10.779 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 502,bad
+ | 2017-10-12 12:54:10.812 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:54:10.813 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 1 delay between tries: 1000 milisecond(s) for :503
+ | 2017-10-12 12:54:11.814 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 2 delay between tries: 1000 milisecond(s) for :503
+ | 2017-10-12 12:54:12.818 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 503,bad
+ | 2017-10-12 12:54:12.833 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:54:12.835 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 1 delay between tries: 1000 milisecond(s) for :504
+ | 2017-10-12 12:54:13.837 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -identity_accessToken Try no: 2 delay between tries: 1000 milisecond(s) for :504
+ | 2017-10-12 12:54:14.843 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 504,bad
+ | 2017-10-12 12:54:14.862 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:54:14.866 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:14.867 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:14.868 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :identity_accessToken : max retry : 1 times.
+ | 2017-10-12 12:54:14.869 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:14.881 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:14.881 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:14.890 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:14.890 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:14.901 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:14.901 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:14.911 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:14.911 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:14.920 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:14.920 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:14.921 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 1 delay between tries: 0 milisecond(s) for :503
+ | 2017-10-12 12:54:14.921 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:54:14.921 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 503,[{"productId":"080487511","aisleCode":"46","orientationCode":"L","modSequence":"13","shelfCode":"B","productPosition":1,"facing":1},{"productId":"62321419","aisleCode":"47","orientationCode":"R","modSequence":"12","shelfCode":"A","productPosition":1,"facing":1}]
+ | 2017-10-12 12:54:14.932 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:14.932 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:14.945 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:14.947 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:14.948 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 1 delay between tries: 0 milisecond(s) for :408
+ | 2017-10-12 12:54:14.949 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:54:14.950 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 408,[{"productId":"080487511","aisleCode":"46","orientationCode":"L","modSequence":"13","shelfCode":"B","productPosition":1,"facing":1},{"productId":"62321419","aisleCode":"47","orientationCode":"R","modSequence":"12","shelfCode":"A","productPosition":1,"facing":1}]
+ | 2017-10-12 12:54:14.961 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:14.961 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :productLocationServiceName : max retry : 0 times.
+ | 2017-10-12 12:54:14.962 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:65)
+ | FAILED -productLocationServiceName Try no: 1 delay between tries: 0 milisecond(s) for :502
+ | 2017-10-12 12:54:14.962 |  | product-projection-service | BLRABISW162551 |   | UK-null | ERROR | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:68)
+ | 2001-order enrichment retry error:2001
+ | 2017-10-12 12:54:14.963 |  | product-projection-service | BLRABISW162551 |   | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:75)
+ | 502,[{"productId":"080487511","aisleCode":"46","orientationCode":"L","modSequence":"13","shelfCode":"B","productPosition":1,"facing":1},{"productId":"62321419","aisleCode":"47","orientationCode":"R","modSequence":"12","shelfCode":"A","productPosition":1,"facing":1}]
+ | 2017-10-12 12:54:38.341 |  | product-projection-service | BLRABISW162551 | 3788 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:38.388 |  | product-projection-service | BLRABISW162551 | 3788 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:38.406 |  | product-projection-service | BLRABISW162551 | 3788 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:38.431 |  | product-projection-service | BLRABISW162551 | 3788 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:38.444 |  | product-projection-service | BLRABISW162551 | 3788 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:38.498 |  | product-projection-service | BLRABISW162551 | 3788 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:38.514 |  | product-projection-service | BLRABISW162551 | 3788 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:38.520 |  | product-projection-service | BLRABISW162551 | 3788 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:38.526 |  | product-projection-service | BLRABISW162551 | 3788 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:38.532 |  | product-projection-service | BLRABISW162551 | 3788 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:38.538 |  | product-projection-service | BLRABISW162551 | 3788 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 2017-10-12 12:54:38.546 |  | product-projection-service | BLRABISW162551 | 3788 | UK-null |  INFO | Caller+1	 at com.tesco.store.product.projection.utils.ServiceRetryCommand.run(ServiceRetryCommand.java:50)
+ | Service call started :ProductService : max retry : 1 times.
+ | 

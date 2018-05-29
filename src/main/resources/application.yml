@@ -1,0 +1,56 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name : MyService
+   
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      javax:
+        persistence:
+          query:
+            timeout:4000
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+          
+      show-sql: true
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sampleschema?connectTimeout=25&socketTimeout=25
+    username: root
+    password: 1234
+    tomcat:
+      max-Active: 20
+
+service:
+  retry:
+    maxretryCount: 3
+    retryDelay: 100
+ 
+enrichment:
+  retry:
+    count: 10
+    
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        threadpool:
+          myThreadPool:
+            coreSize: 2
+            maximumSize: 20 
+            allowMaximumSizeToDivergeFromCoreSize : true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 1900
+            
+    getValue:
+      execution:
+        timeout:
+          enabled: true
+            
