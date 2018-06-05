@@ -1,5 +1,6 @@
 package com.poc.sample.repos;
 
+import java.math.BigDecimal;
 import java.sql.SQLNonTransientException;
 import java.sql.SQLTransientException;
 import java.util.ArrayList;
@@ -41,9 +42,9 @@ public class MyCaptainCreditRepo {
 			dtos = maintainResponseOrder(dtos, searchModels);
 			//Thread.sleep(100);
 			return dtos;
-		} catch(SQLTransientException tex) {
+		} catch(SQLTransientException tex) { // Couldn't create SQLTransientException
 			System.out.println("Transient exception - " + tex.getMessage());
-		} catch(SQLNonTransientException comex) {
+		} catch(SQLNonTransientException comex) { // Couldn't create this exception, however we can filter it from caused by property
 			System.out.println("DB exception - " + comex.getMessage());
 		} catch(Exception ex) {
 			System.out.println("DB exception - " + ex.getMessage());
@@ -69,5 +70,22 @@ public class MyCaptainCreditRepo {
 		});
 		
 		return dtos;
+	}
+
+	// Spring transaction with hystrix testing purposes
+	public void updateValue(SearchMessage model) throws Exception {
+		
+		System.out.println("Hitting main method for captainIds: " + model.getSearchId());
+		try
+		{	
+			CaptainCreditLimit creditLimit = bookingRepositoryImpl.getOne(model.getSearchId());
+			creditLimit.setCreditLimit(creditLimit.getCreditLimit().add(new BigDecimal("1")));
+			CaptainCreditLimit updatedCreditLimit = bookingRepositoryImpl.saveAndFlush(creditLimit);
+			System.out.println(updatedCreditLimit);
+		}
+		catch(Exception ex) // debugging puposes only
+		{
+			throw ex;
+		}
 	}
 }

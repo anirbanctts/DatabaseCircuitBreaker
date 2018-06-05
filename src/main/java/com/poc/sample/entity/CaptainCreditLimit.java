@@ -7,8 +7,11 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.springframework.transaction.annotation.Transactional;
+
 @Entity
-@Table(name = "CaptainCreditLimit")
+@Table(name = "driver_detail")
+@Transactional
 public class CaptainCreditLimit {
 
     private Integer captainId;

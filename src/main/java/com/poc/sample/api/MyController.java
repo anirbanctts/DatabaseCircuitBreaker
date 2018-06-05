@@ -22,23 +22,32 @@ public class MyController {
 	@Autowired
 	private MyService myService;
 	
+	//This end point is for non transactional flow - to test multiple requests together
 	@RequestMapping(value = "/sample/{id}", produces = "application/json", method = RequestMethod.POST)
 	public ResponseEntity<CustomDTO> searchByObject(@PathVariable int id, @RequestBody SearchMessage searchModel) throws Exception{
-		
-		// Initialize Hystrix context
-		//HystrixRequestContext context = HystrixRequestContext.initializeContext();
-
-		// HystrixCollapser calls here...
-		//String val = myService.getValueTest(id).get();
-		//CustomDTO val = myService.getValueBySearchParam(searchModel).get();
-		
+				
 		List<SearchMessage> s = new ArrayList<SearchMessage>(); 
 		s.add(searchModel);
 		CustomDTO val = myService.getValue(s).get(0);
 		
-		// Shutdown Hystrix context
-		//context.shutdown();
-				
-		return new ResponseEntity<CustomDTO>(val, HttpStatus.OK);
+		return new ResponseEntity<>(val, HttpStatus.OK);
+	}
+	
+	@RequestMapping(value = "/update/{id}", produces = "application/json", method = RequestMethod.POST)
+	public ResponseEntity<String> updateObjects(@PathVariable int id, @RequestBody SearchMessage searchModel) throws Exception {
+		try
+		{
+			myService.updateValues(searchModel);
+		}
+		catch(RuntimeException ex)
+		{
+			System.out.println("ssss");
+		}
+		catch(Exception ex)
+		{
+			throw ex;
+			//System.out.println("ssss");
+		}
+		return new ResponseEntity<String>("hi", HttpStatus.OK);
 	}
 }

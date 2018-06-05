@@ -8,6 +8,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+      show_sql: true
     properties:
       javax:
         persistence:
@@ -19,20 +20,11 @@ spring:
       show-sql: true
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/sampleschema?connectTimeout=25&socketTimeout=25
+    url: jdbc:mysql://localhost:3306/sampleschema?connectTimeout=150&socketTimeout=150
     username: root
     password: 1234
     tomcat:
       max-Active: 20
-
-service:
-  retry:
-    maxretryCount: 3
-    retryDelay: 100
- 
-enrichment:
-  retry:
-    count: 10
     
 hystrix:
   command:
@@ -47,10 +39,20 @@ hystrix:
             allowMaximumSizeToDivergeFromCoreSize : true
         isolation:
           thread:
-            timeoutInMilliseconds: 1900
+            timeoutInMilliseconds: 19000
             
+    updateCreditInfo:
+      execution:
+        timeout:
+          enabled: true
+          
+    updateCreditInfoAlt:
+      execution:
+        timeout:
+          enabled: true
     getValue:
       execution:
         timeout:
           enabled: true
+   
             
